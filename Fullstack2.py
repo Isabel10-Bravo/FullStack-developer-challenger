@@ -1,5 +1,5 @@
 # Desafio desarrollador fullstack
-# Importacion de librerias
+# Importacion de librerias necesarias
 import random
 import math
 

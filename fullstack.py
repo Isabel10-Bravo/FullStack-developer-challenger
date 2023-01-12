@@ -1,5 +1,5 @@
 # Desafio desarrollador fullstack
-# Importacion de librerias
+# Importacion de librerias necesarias
 import random
 
 # Declaración de variables
@@ -47,7 +47,7 @@ n = random.randint(2,15) # Tamaño del vector de forma aleatoria de 2 a 15
 cont = n
 for i in range(0,n):    # Creacion del vector con numeros random de 0 a 100
   vIn.append(random.randint(0,99))
-print("Vector inicial",vIn)
+print("Vector inicial creado",vIn)
 for i in range(0,n):    # Llamado de las funciones para verificar y eliminar los valores en cada celda
   vIn[i] = verificar(vIn[i]) 
   if vIn[i] == None:
