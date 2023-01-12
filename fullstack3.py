@@ -1,4 +1,4 @@
-# Prueba para Banco de Bogota
+# Desafio desarrollador fullstack
 # Importacion de librerias
 import random
 

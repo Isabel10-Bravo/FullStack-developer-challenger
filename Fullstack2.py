@@ -1,4 +1,4 @@
-# Prueba para Banco de Bogota
+# Desafio desarrollador fullstack
 # Importacion de librerias
 import random
 import math
@@ -6,7 +6,7 @@ import math
 # Creacion de variables
 vecIn = []
 n = 15
-ss = 66
+ss = 99
 l = 0
 
 # Funciones

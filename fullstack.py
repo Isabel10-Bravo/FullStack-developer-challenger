@@ -1,4 +1,4 @@
-# Prueba para Banco de Bogota
+# Desafio desarrollador fullstack
 # Importacion de librerias
 import random
 
@@ -6,14 +6,14 @@ import random
 vIn = []
 vOut =[]
 n = 15
-s = 6
+s = 9
 
 # Funciones
 def orden(vIn):     # Re-Ordenar las posiciones del vector de atras hacia adelante
   vOut = [None] * cont
   for i in range(0,cont):
       vOut[(cont-1)-i] = vIn[i]
-  print("Vector ordenado y ",vOut)
+  print("Vector ordenado ",vOut)
 
 def verificar(num): # Verificar cada posicion si tiene el numero S y devuelve None
   if num < 10:      # Un solo digito
