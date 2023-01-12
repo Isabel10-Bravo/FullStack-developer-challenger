@@ -28,7 +28,7 @@ def eliminar(vec,pos): # Reorganiza las posiciones en el vector al encontar un t
     vecOut = [None] * pos
     for i in range(0,pos):
       vecOut[i] = vec[i]
-    print("Final",vecOut)
+    print("Vector final",vecOut)
 
 #Punto 2
 n = random.randint(2,15) # Tamaño del vector de forma aleatoria de 2 a 15
