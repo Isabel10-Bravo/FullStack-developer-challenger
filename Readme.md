@@ -22,8 +22,8 @@
  
 > # Desafío 1
 Para este desafío se importan la librería random, se crea e inicializa las variables necesarias, en el caso del vector el tamaño es
-aleatorio del 2 - 15 y los dígitos del vector de igual forma pero entre el rango 1 - 99. Cada valor que compone el vector se verifica el número de dígitos 
-para descomponerlo en unidades y decenas y simultaneamente verificar si es igual al código Hash para modificarlo o eliminarlo si es necesario. 
+aleatorio del 2 - 15 y los dígitos del vector de igual forma pero entre el rango 1 - 100. Cada valor que compone el vector se verifica el número de dígitos 
+para descomponerlo en unidades y decenas y simultaneamente verificar si es igual o mayor al código Hash para modificarlo o eliminarlo si es necesario. 
 A continuación, se verifica cada celda del vector si esta vacía y de ser necesario hacer un corrimiento en el vector, para así, eliminar la celda vacía, y por último se reorganiza el vector cambiando las posiciones de atrás hacia adelante.
 
 Como se mencionó el tamaño del vector y los valores son generados de forma aleatoria solo es necesario ejecutar el programa desde la consola de comandos 
