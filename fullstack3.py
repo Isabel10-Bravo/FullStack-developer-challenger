@@ -18,10 +18,13 @@ def minCambio(vec): # Minimo cambio posible
 #Punto 3
 n = random.randint(2,10) # Tamaño del vector de forma aleatoria de 2 a 15
 cont = n
+
 for i in range(0,n):    # Creacion del vector con numeros random de 0 a 100
   vecMon.append(random.randint(1,10))
-vecMon.sort()
+
+vecMon.sort()           #Ordenamiento del vector
 print(vecMon)
+
 mincam = minCambio(vecMon)
 print("El cambio minimo posible es ", mincam)
 
